@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-bg-color: #000000;
+    --header-bg-color: transparent;
+    --sidebar-bg-color: #0000008f;
+    --footer-bg-color: #000000a9;
+    --color: black;
+    --primary-text-color: #b8b8b8;
+    --header-text-color: #adadad;
+    --sidebar-link-color: #0067eed6;
+    --sidebar-hover-color: #1c82fe;
+    --footer-text-color: #898989;
+    --link-text-color: #0099ff;
+    --link-hover-color: #00ccff;
+    --email-color: #00ff66;
+
+    --padding-large-width: 20px;
+    --padding-medium-width: 15px;
+    --padding-small-width: 10px;
+
+    --font-family: 'Red Hat Display', sans-serif;
+
+    --section-border-width: 1px;
+    --section-border-color: #666666;
+    --section-border-radius: 6px;
+    --section-bg-color: #20212292;
+}
+
+body {
+    background-image: url('assets/images/background/background.png'); /* Background image */
+    background-color: var(--primary-bg-color); /* Fallback color */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: var(--primary-text-color);
+    margin: 0;
+    padding: var(--padding-large-width);
+    font-family: var(--font-family);
+}
+
+.fixed-background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1, h2, h3, p, a {
+    font-family: var(--font-family);
+}
+
+body a {
+    color: var(--link-text-color);
+}
+body a:hover {
+    color: var(--link-hover-color);
+}
+body .email {
+    color: var(--email-color);
+}
+
+section {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    font-family: 'Rubik Moonrocks', sans-serif;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px 50px;
+    word-spacing: 10px;
+}
+
+div a:link, div a:visited, div a:active {
+    text-decoration: none;
+    color: gray;
+    transition: 250ms ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3a3a3ad6;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1c82fe;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #0067eed6;
+}

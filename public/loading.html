@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="title" content="Moonrock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moonrock">
+    <meta name="keywords" content="games, gaming, search engine">
+    <meta name="author" content="g9aerospace & dave9123">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="A gaming search engine">
+    <meta property="og:image" content="https://github.com/VyperGroup/Moonrock/blob/dave9123/public/assets/images/vyper.png?raw=true">
+    <meta property="og:url" content="https://moonrock.com">
+    <meta property="theme-color" content="#2596be">   
+    
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <script src="assets/script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap">
+    <title>Loading...</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik+Mono+One&display=swap');
+      html,
+      body {
+        background-color: #202124;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-image: url('assets/images/moon.jpg');
+      }
+      p {
+        color: white;
+        font-family: 'Rubik Mono One', sans-serif;
+        font-size: 2em;
+        display: inline-block;
+      }
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .dots::after {
+        content: ".";
+        animation: blink 2s infinite;
+      }
+      @keyframes blink {
+        0% {
+          content: ".";
+        }
+        33% {
+          content: "..";
+        }
+        66% {
+          content: "...";
+        }
+        100% {
+          content: ".";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-container">
+    </header>
+
+      <!--Main-->
+    <div class="loading">
+      <p>Loading <span class="dots"></span>
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer-container">
+    </footer>
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

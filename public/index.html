@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="title" content="Astral Games">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta property="og:title" content="Home">
+     
+        <meta property="theme-color" content="#2596be">   
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="assets/css/index.css">
+
+        <script src="assets/script.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap">
+        <title>Astral Games
+        </title>
+
+        <style>
+            body {
+                background: url('./assets/images/background/background.png') no-repeat center center fixed;
+            }
+        </style>
+    </head>
+<body>
+    </header>
+
+    <!--Main-->
+    <container id="searching">
+        <form class="search-bar" onsubmit="return searchGames(event)">
+            <input type="text" placeholder="Search for games..."name="q">
+            <button type="submit"><img src="assets/images/search.png"></button>
+        </form>
+    </container>
+
+    <!-- Search Results -->
+    <section id="search-results">
+        <div class="pagination"></div>
+        <div class="search-results-container"></div>
+        <div class="pagination"></div>
+    </section>
+
+
+
+    <script src="assets/js/global.js"></script>
+</body>
+</html>

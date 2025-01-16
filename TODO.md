@@ -1,0 +1,21 @@
+# TODO List
+- Automatic fallback function if game link isn't working on Flashpoint, so that use the zip file to play the game (manual function done)
+- Scrape direct game link from Yandex Games
+- Be able to bypass/not have captcha page shown for Yandex Games
+- Search only using a specific provider
+- Support itch.io
+- Support poki.com
+- Support and bypass 403 Forbidden agame.com
+- Support and bypass 403 Forbidden on kids.agame.com
+- Support gameflare.com
+- Support kongregate.com
+- Support now.gg (games)
+- Support newgrounds.com (games)
+- Get actual direct link from crazygames.com
+- Add gameplay history, most played game, leaderboard, playtime, etc and store user info
+- Able to comply with COPPA for user data
+- Store stuff on cookie to let the user logged in
+- Bookmark function
+- Download game function (offline)
+- Make a Discord bot to show the user their playtime, history, leaderboard
+- Fill tos and pp pages with actual legal data (g9 has provided sample gpt data)

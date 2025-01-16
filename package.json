@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cookie-parser": "^1.4.6",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "fs-extra": "^11.2.0",
+    "passport": "^0.7.0",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "yarn:start": "yarn server.js",
+    "dev": "nodemon -i cache server.js",
+    "nodemon:dev": "nodemon -i cache server.js",
+    "yarn:install": "yarn install",
+    "yarn:import": "yarn import"
+  },
+  "name": "moonrock",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyperGroup/Moonrock.git"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "yarn": "^1.22.22"
+  }
+}
